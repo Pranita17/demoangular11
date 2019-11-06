@@ -1,7 +1,6 @@
 body {
     margin: 0;
     font-family: sans-serif;
-   
 }
 
 .bgimage {
@@ -28,45 +27,70 @@ h1
 {
   font-size: 50px;  
 }
-
-
-
-.hero {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.hero::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url(https://raw.githubusercontent.com/Pranita17/demoangular11/master/src/assests/images/images-col4.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    filter: brightness(60%);
+.about-para
+{
+  font-family: 'Roboto Slab', serif;
+  font-size:30px;
+  color: whitesmoke;  
+  padding-left: 70px;
+  padding-right: 90px;
 }
 
-.hero-content {
-    position: relative; 
-    font-family: "Monserrat", sans-serif;
-    color: white;
-    text-align: center;
-    margin: 0.625rem;
+
+.bgimage {
+  
+  width:100%;
+  height:100%;
+  background: url('https://optimizetricks.com/wp-content/uploads/2017/11/optbg124.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  
 }
-.hero-title {
-    font-size: 3rem;
-    font-weight: 600;
-    margin-bottom: 0;
+.bgimage h5 {
+  color:white;
+  text-shadow:2px 2px #333;
 }
-.hero-subtitle {
-    font-size: 2rem;
-    font-weight: 200;
-    margin-top: 1rem;
+/* #about-text
+{
+  padding-left: 70px;
+  padding-right: 90px;
+
+} */
+
+  h1
+  {
+    padding-top: 30px;
+     font-family: 'Roboto Slab', serif;
+     font-size: 50px;
+  color: whitesmoke;
+  }
+
+
+@media(min-width: 300px){
+
+  .about-para
+  {
+    font-size: 18px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin:0;
+  }
+  .bgimage {
+  width:100%;
+  height:100%;
+  background: url('https://optimizetricks.com/wp-content/uploads/2017/11/optbg124.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  
 }
+  about-head,h2
+  {
+     font-family: 'Roboto Slab', serif;
+  
+  color: whitesmoke;
+  overflow-inline: auto;
+  }
+}
+
