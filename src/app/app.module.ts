@@ -12,7 +12,7 @@ import { RouterModule } from '@angular/router';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ,RouterModule.forRoot([
-    {path: '',component:HomeComponent},
+    {path: 'home',component:HomeComponent},
     {path: 'about',component: AboutComponent},
     {path: 'careers',component: CareersComponent},
   ])],

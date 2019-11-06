@@ -1,7 +1,7 @@
-.carousel-inner img {
+/* .carousel-inner img {
       width: 100px;
       height: 600px;
-}
+} */
 
 .grid
 {
@@ -23,3 +23,9 @@ body{
 }
 
 
+.carousel-inner img {
+  padding-left: 300px;
+      width: 70%;
+      height: 70%;
+     
+  }
