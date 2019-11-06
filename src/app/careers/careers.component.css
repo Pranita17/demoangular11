@@ -1,4 +1,21 @@
+.table
+{
+ table-layout: auto;
+ width: 900px;
+ height:200px;
+ font-size: 12px;
+}
+.text
+{
+  font-size: 16px;
+  text-align: left;
+  font-family: 'ZCOOL XiaoWei', serif;
+}
+img{
+  width: 100%;
+  height: auto;
+}
 .jumbotron {
-    background-color: #f4511e;
+    background-color: #d47a5fc0;
     color: #fff;
   }

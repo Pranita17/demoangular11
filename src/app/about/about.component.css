@@ -12,3 +12,13 @@ body {
   background-size:cover;
   background-attachment: fixed;
 }
+
+#p1
+{
+  font-size: 18px;
+  font-family: Oswald sans-serif;
+  text-decoration-color: #d47a5fc0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
