@@ -1,15 +1,15 @@
 .table
 {
  table-layout: auto;
- width: 900px;
- height:200px;
- font-size: 12px;
+ width: 600px;
+ height:300px;
+ font-size: 16px;
 }
 .text
 {
   font-size: 16px;
   text-align: left;
-  font-family: 'ZCOOL XiaoWei', serif;
+  font-family: 'Roboto Slab', serif;
 }
 img{
   width: 100%;
