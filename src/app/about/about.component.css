@@ -36,7 +36,6 @@ h1
   padding-right: 90px;
 }
 
-
 .bgimage {
   
   width:100%;
@@ -47,25 +46,18 @@ h1
   background-size:cover;
   
 }
+
 .bgimage h5 {
   color:white;
   text-shadow:2px 2px #333;
 }
-/* #about-text
-{
-  padding-left: 70px;
-  padding-right: 90px;
 
-} */
-
-  h1
-  {
+h1 {
     padding-top: 30px;
      font-family: 'Roboto Slab', serif;
      font-size: 50px;
   color: whitesmoke;
-  }
-
+}
 
 @media(min-width: 300px){
 
