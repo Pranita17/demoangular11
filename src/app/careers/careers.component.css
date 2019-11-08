@@ -1,9 +1,9 @@
-.table
+ table
 {
  table-layout: auto;
- width: 700px;
- height:300px;
- font-size: 16px;
+ border: 1px solid black;
+ font-size: 11px;
+ overflow-x:auto;
 }
 .text
 {
@@ -19,3 +19,22 @@ img{
     background-color: #d47a5fc0;
     color: #fff;
   }
+/* @media only screen and (min-width: 400px) {
+    .col-sm-6 table{
+      overflow-x:auto;
+    }
+  } */
+
+/* @media only screen and (min-width:1200px) {
+  .col-sm-4 table{
+    width:100%; 
+}
+}  */
+ 
+
+ @media only screen and (min-width: 400px) {
+     table{
+      overflow-x:auto;
+    }
+  }
+
